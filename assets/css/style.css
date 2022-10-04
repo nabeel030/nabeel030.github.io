@@ -129,6 +129,34 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 20px;
 }
 
+.experience h5 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  color: #173b6c;
+}
+
+.experience h6 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  color: #173b6c;
+}
+
+.experience h6 a:hover {
+  border-bottom: 3px solid #149ddd
+}
+
+.exp-duration {
+  font-weight: bold;
+  color: #173b6c;
+}
+
+ul li {
+  margin-bottom: 3px;
+}
+
 @media (max-width: 1199px) {
   #header {
     left: -300px;
@@ -285,16 +313,18 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0;
   overflow: hidden;
 }
 
 .section-bg {
   background: #f5f8fd;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .section-title h2 {
